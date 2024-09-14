@@ -1,0 +1,30 @@
+{
+	member: {
+		name: "Member"
+		power: 1
+		condition: "always_active"
+		ftbchunks.max_claimed: 100
+		ftbchunks.max_force_loaded: 1
+		ftbessentials.home.max: 2
+	}
+	vip: {
+		name: "VIP"
+		power: 50
+		ftbranks.name_format: "&bVIP {name}"
+	}
+	admin: {
+		name: "Admin"
+		power: 1000
+		condition: "op"
+		ftbchunks.max_claimed: 1000
+		ftbchunks.max_force_loaded: 1
+		ftbranks.name_format: "&1&4Admin &r{name}"
+		ftbessentials.home.max: 10
+		ftbessentials.home.cooldown: 0
+	}
+	addclaim: {
+		name: "addClaim"
+		power: 2
+		ftbchunks.max_claimed: 300
+	}
+}
