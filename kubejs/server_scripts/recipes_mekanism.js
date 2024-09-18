@@ -226,13 +226,13 @@ ServerEvents.recipes(event =>
 		event.remove({ output: 'mekanism:metallurgic_infuser' })
 		event.shaped('mekanism:metallurgic_infuser', [
 			'IFI',
-			'ROR',
+			'RMR',
 			'PSP'
 		],{	
 			I: 'minecraft:iron_ingot',
 			F: 'industrialforegoing:resourceful_furnace',
 			R: 'minecraft:redstone',
-			O: 'mekanism:ingot_osmium',
+			M: 'industrialforegoing:simple_machine_frame',
 			P: 'industrialforegoing:plastic',
 			S: 'create:sturdy_sheet'
 		})
