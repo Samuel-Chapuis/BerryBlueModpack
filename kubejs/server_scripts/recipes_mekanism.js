@@ -20,24 +20,25 @@ ServerEvents.recipes(event =>
 
 		event.remove({ output: 'mekanism:advanced_control_circuit' })
 		event.shaped('mekanism:advanced_control_circuit', [
-			' D ',
+			' P ',
 			'IBI',
 			' D '
 		],{
 			D: 'minecraft:diamond',	
 			I: 'mekanism:alloy_infused',
-			B: 'mekanism:basic_control_circuit'
+			B: 'mekanism:basic_control_circuit',
+			P: 'create:precision_mechanism'
 		})
 
 		event.remove({ output: 'mekanism:elite_control_circuit' })
 		event.shaped('mekanism:elite_control_circuit', [
-			' P ',
+			' D ',
 			'RAR',
-			' R '
-		],{
-			P: 'create:precision_mechanism',	
+			' D '
+		],{	
 			R: 'mekanism:alloy_reinforced',
-			A: 'mekanism:advanced_control_circuit'
+			A: 'mekanism:advanced_control_circuit',
+			D: 'ad_astra:desh_ingot'
 		})
 
 		event.remove({ output: 'mekanism:ultimate_control_circuit' })
