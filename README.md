@@ -7,7 +7,7 @@ The **BerryBlue** modpack is designed for a mix of **Cobblemon**, **Technical**,
 mc.berryblue.fr
 
 **Minecraft Version:** 1.20.1  
-**Modpack Version:** v.b.1
+**Modpack Version:** v.0.b.1
 
 ## Key Features
 ### Flowchart of the Modifications
@@ -26,7 +26,7 @@ mc.berryblue.fr
 ### Manual Installation
 1. Go to the website [BerryBlue](https://mc.berryblue.fr/).
 2. Download the client pack and the correct version of Forge.
-3. Ensure you have at least 3 GB of RAM allocated to your game.
+3. Ensure you have at least 4 GB of RAM allocated to your game.
 4. Launch Minecraft from the client, and enjoy!
 
 ## Contributing
@@ -34,7 +34,7 @@ We welcome contributions to help improve this modpack. Here's how you can contri
 1. Fork this repository.
 2. Create a new branch (`git checkout -b feature/improvement`).
 3. Make your changes and ensure they work correctly.
-4. Make sure you're following the [project's Git syntax](gitSyntax.md).
+4. Make sure you're following the project's [Git syntax](gitSyntax.md).
 5. Submit a Pull Request for review.
 
 ### Contribution Guidelines:
