@@ -1,7 +1,7 @@
 ServerEvents.recipes(event =>
 	{
 		event.remove({ output: 'industrialforegoing:pity_generator' })
-
+		event.remove({ output: 'industrialforegoing:mycelial_reactor' })
 		event.remove({ output: 'industrialforegoing:gold_gear' })
 		event.shaped('industrialforegoing:gold_gear', [
 			' G ',
@@ -35,44 +35,43 @@ ServerEvents.recipes(event =>
 
 ServerEvents.recipes(event =>
 	{
+		event.remove({ output: 'industrialforegoing:machine_frame_advanced' })
 		event.custom({
 			type: "industrialforegoing:dissolution_chamber",
 			"input": [
 				{
-				  "item": "minecraft:dirt"
+				  "item": "industrialforegoing:plastic"
 				},
 				{
-				  "item": "minecraft:dirt"
+				  "item": "industrialforegoing:machine_frame_simple"
 				},
 				{
-				  "item": "minecraft:dirt"
+				  "item": "industrialforegoing:plastic"
 				},
 				{
-				  "item": "minecraft:dirt"
+				  "item": "minecraft:netherite_scrap"
 				},
 				{
-				  "item": "minecraft:dirt"
+				  "item": "minecraft:netherite_scrap"
 				},
 				{
-				  "tag": "minecraft:dirt"
+				  "item": "minecraft:gold_ingot"
 				},
 				{
-				  "tag": "minecraft:dirt"
+				  "item": "mekanism:advanced_control_circuit"
 				},
 				{
-				  "tag": "minecraft:dirt"
+				  "item": "minecraft:gold_ingot"
 				}
 			  ],
-			"inputFluid": "{Amount:2000,FluidName:\"industrialforegoing:pink_slime\"}",
+			"inputFluid": "{Amount:500,FluidName:\"industrialforegoing:pink_slime\"}",
 			"output": {
 				"count": 1,
-				"item": "minecraft:diamond",
+				"item": "industrialforegoing:machine_frame_advanced",
 			},
 			"processingTime": 400
 
 		})
-
-
 
 
 	})
