@@ -26,4 +26,16 @@ ServerEvents.recipes(event =>
 			P: 'ad_astra:steel_plate',
 			S: 'ad_astra:steel_block'
 		});
+
+		event.remove({ output: 'ad_astra:ostrum_engine' })
+		event.shaped('ad_astra:ostrum_engine', [
+			'PMP',
+			'PDP',
+			' F '
+		], {
+			P: 'ad_astra:ostrum_plate',
+			M: 'industrialforegoing:machine_frame_supreme',
+			D: 'ad_astra:desh_engine',
+			F: 'ad_astra:fan'
+		});
 	})

@@ -89,4 +89,17 @@ ServerEvents.recipes(event =>
 			M: 'industrialforegoing:machine_frame_advanced',
 			F: 'ae2:formation_core'
 		});
+
+		event.remove({ output: 'ae2:quantum_ring' })
+		event.shaped('ae2:quantum_ring', [
+			'PLP',
+			'ECS',
+			'PLP'
+		], {
+			P: 'ad_astra:permafrost',
+			L: 'ae2:logic_processor',
+			E: 'ae2:engineering_processor',
+			C: 'ae2:energy_cell',
+			S: 'ae2:fluix_smart_dense_cable'
+		});
 	})
