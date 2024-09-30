@@ -238,4 +238,26 @@ ServerEvents.recipes(event =>
 			S: 'create:sturdy_sheet'
 		})
 
+		event.remove({ output: 'mekanism:chemical_dissolution_chamber' })
+		event.shaped('mekanism:chemical_dissolution_chamber', [
+			'OTO',
+			'ESE',
+			'OTO'
+		],{	
+			O: 'mekanism:ingot_refined_obsidian',
+			T: 'mekanism:basic_chemical_tank',
+			E: 'mekanism:elite_control_circuit',
+			S: 'mekanism:steel_casing'
+		})
+
+		event.remove({ output: 'mekanism:isotopic_centrifuge' })
+		event.shaped('mekanism:isotopic_centrifuge', [
+			'LLL',
+			'ETE',
+			'LLL'
+		],{	
+			L: 'mekanism:ingot_lead',
+			E: 'mekanism:elite_control_circuit',
+			T: 'mekanism:basic_chemical_tank'
+		})
 	})

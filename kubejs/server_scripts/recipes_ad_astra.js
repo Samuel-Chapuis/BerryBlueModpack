@@ -38,4 +38,16 @@ ServerEvents.recipes(event =>
 			D: 'ad_astra:desh_engine',
 			F: 'ad_astra:fan'
 		});
+
+		event.remove({ output: 'ad_astra:calorite_engine' })
+		event.shaped('ad_astra:calorite_engine', [
+			'PAP',
+			'PEP',
+			' F '
+		], {
+			P: 'ad_astra:calorite_plate',
+			A: 'mekanism:pellet_antimatter',
+			E: 'ad_astra:ostrum_engine',
+			F: 'ad_astra:fan'
+		});
 	})

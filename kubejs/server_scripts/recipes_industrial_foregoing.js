@@ -24,7 +24,15 @@ ServerEvents.recipes(event =>
 			R: 'minecraft:redstone_block'
 		});
 
-		
+		event.remove({ output: 'mifa:netherite_gear' })
+		event.shaped('mifa:netherite_gear', [
+			' N ',
+			'NBN',
+			' N '
+		], {
+			N: 'minecraft:netherite_ingot',
+			B: 'create:brass_ingot'
+		});
 	})
 
 
@@ -73,5 +81,231 @@ ServerEvents.recipes(event =>
 
 		})
 
+		event.remove({ output: 'mifa:efficiency_addon_3' })
+		event.custom({
+			type: "industrialforegoing:dissolution_chamber",
+			"input": [
+				{
+				  "item": "minecraft:redstone"
+				},
+				{
+				  "item": "minecraft:redstone"
+				},
+				{
+				  "item": "minecraft:glass_pane"
+				},
+				{
+				  "item": "minecraft:glass_pane"
+				},
+				{
+				  "item": "mifa:netherite_gear"
+				},
+				{
+				  "item": "ad_astra:ostrum_ingot"
+				},
+				{
+				  "item": "minecraft:blaze_rod"
+				},
+				{
+				  "item": "minecraft:blaze_rod"
+				}
+			  ],
+			"inputFluid": "{Amount:500,FluidName:\"industrialforegoing:ether_gas\"}",
+			"output": {
+				"count": 1,
+				"item": "mifa:efficiency_addon_3",
+			},
+			"processingTime": 300
 
+		})
+
+		event.remove({ output: 'mifa:efficiency_addon_4' })
+		event.custom({
+			type: "industrialforegoing:dissolution_chamber",
+			"input": [
+				{
+				  "item": "minecraft:redstone"
+				},
+				{
+				  "item": "minecraft:redstone"
+				},
+				{
+				  "item": "minecraft:glass_pane"
+				},
+				{
+				  "item": "minecraft:glass_pane"
+				},
+				{
+				  "item": "mifa:netherite_gear"
+				},
+				{
+				  "item": "ad_astra:calorite_ingot"
+				},
+				{
+				  "item": "minecraft:blaze_rod"
+				},
+				{
+				  "item": "minecraft:blaze_rod"
+				}
+			  ],
+			"inputFluid": "{Amount:500,FluidName:\"industrialforegoing:ether_gas\"}",
+			"output": {
+				"count": 1,
+				"item": "mifa:efficiency_addon_4",
+			},
+			"processingTime": 400
+
+		})
+
+		event.remove({ output: 'mifa:processing_addon_3' })
+		event.custom({
+			type: "industrialforegoing:dissolution_chamber",
+			"input": [
+				{
+				  "item": "minecraft:redstone"
+				},
+				{
+				  "item": "minecraft:redstone"
+				},
+				{
+				  "item": "minecraft:glass_pane"
+				},
+				{
+				  "item": "minecraft:glass_pane"
+				},
+				{
+				  "item": "mifa:netherite_gear"
+				},
+				{
+				  "item": "ad_astra:ostrum_ingot"
+				},
+				{
+				  "item": "minecraft:furnace"
+				},
+				{
+				  "item": "minecraft:crafting_table"
+				}
+			  ],
+			"inputFluid": "{Amount:500,FluidName:\"industrialforegoing:ether_gas\"}",
+			"output": {
+				"count": 1,
+				"item": "mifa:processing_addon_3",
+			},
+			"processingTime": 300
+
+		})
+
+		event.remove({ output: 'mifa:processing_addon_4' })
+		event.custom({
+			type: "industrialforegoing:dissolution_chamber",
+			"input": [
+				{
+				  "item": "minecraft:redstone"
+				},
+				{
+				  "item": "minecraft:redstone"
+				},
+				{
+				  "item": "minecraft:glass_pane"
+				},
+				{
+				  "item": "minecraft:glass_pane"
+				},
+				{
+				  "item": "mifa:netherite_gear"
+				},
+				{
+				  "item": "ad_astra:calorite_ingot"
+				},
+				{
+				  "item": "minecraft:furnace"
+				},
+				{
+				  "item": "minecraft:crafting_table"
+				}
+			  ],
+			"inputFluid": "{Amount:500,FluidName:\"industrialforegoing:ether_gas\"}",
+			"output": {
+				"count": 1,
+				"item": "mifa:processing_addon_4",
+			},
+			"processingTime": 400
+
+		})
+
+		event.remove({ output: 'mifa:speed_addon_3' })
+		event.custom({
+			type: "industrialforegoing:dissolution_chamber",
+			"input": [
+				{
+				  "item": "minecraft:redstone"
+				},
+				{
+				  "item": "minecraft:redstone"
+				},
+				{
+				  "item": "minecraft:glass_pane"
+				},
+				{
+				  "item": "minecraft:glass_pane"
+				},
+				{
+				  "item": "mifa:netherite_gear"
+				},
+				{
+				  "item": "ad_astra:ostrum_ingot"
+				},
+				{
+				  "item": "minecraft:sugar"
+				},
+				{
+				  "item": "minecraft:sugar"
+				}
+			  ],
+			"inputFluid": "{Amount:500,FluidName:\"industrialforegoing:ether_gas\"}",
+			"output": {
+				"count": 1,
+				"item": "mifa:speed_addon_3",
+			},
+			"processingTime": 300
+
+		})
+
+		event.remove({ output: 'mifa:speed_addon_4' })
+		event.custom({
+			type: "industrialforegoing:dissolution_chamber",
+			"input": [
+				{
+				  "item": "minecraft:redstone"
+				},
+				{
+				  "item": "minecraft:redstone"
+				},
+				{
+				  "item": "minecraft:glass_pane"
+				},
+				{
+				  "item": "minecraft:glass_pane"
+				},
+				{
+				  "item": "mifa:netherite_gear"
+				},
+				{
+				  "item": "ad_astra:calorite_ingot"
+				},
+				{
+				  "item": "minecraft:sugar"
+				},
+				{
+				  "item": "minecraft:sugar"
+				}
+			  ],
+			"inputFluid": "{Amount:500,FluidName:\"industrialforegoing:ether_gas\"}",
+			"output": {
+				"count": 1,
+				"item": "mifa:speed_addon_4",
+			},
+			"processingTime": 400
+
+		})
 	})
