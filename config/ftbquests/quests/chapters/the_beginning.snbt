@@ -1,0 +1,24 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_beginning"
+	group: ""
+	id: "0343201820FF6263"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: ["Cogwheels and Waterwheels are the most basic items for your first Create machines and factories. Craft a few, and get started with the core mod of this Modpack !"]
+		id: "3EF81875D305E589"
+		subtitle: "Get your create journey started !"
+		tasks: [{
+			count: 10L
+			id: "7C9C77E9302A82CF"
+			item: { Count: 10, id: "create:cogwheel" }
+			type: "item"
+		}]
+		title: "Things moving"
+		x: 0.5d
+		y: 0.5d
+	}]
+	title: "The Beginning"
+}
