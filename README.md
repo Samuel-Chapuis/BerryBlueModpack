@@ -11,7 +11,7 @@ mc.berryblue.fr
 
 ## Key Features
 ### Flowchart of the Modifications
-[Flowchart](https://app.diagrams.net/#G15iPbd8EBU-erWwGlHzWcWwr7yK6BKFo6#%7B%22pageId%22%3A%22V9OyBiuX0utlfohTktbi%22%7D)
+[Flowchart]([https://app.diagrams.net/#G15iPbd8EBU-erWwGlHzWcWwr7yK6BKFo6#%7B%22pageId%22%3A%22V9OyBiuX0utlfohTktbi%22%7D](https://drive.google.com/file/d/15iPbd8EBU-erWwGlHzWcWwr7yK6BKFo6/view?usp=sharing))
 
 ### General Overview
 - **Pokémon:** [Cobblemon] introduces Pokémon into the game, including custom Pokémon in the pack.
