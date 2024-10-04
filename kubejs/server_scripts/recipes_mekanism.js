@@ -233,7 +233,7 @@ ServerEvents.recipes(event =>
 			I: 'minecraft:iron_ingot',
 			F: 'industrialforegoing:resourceful_furnace',
 			R: 'minecraft:redstone',
-			M: 'industrialforegoing:simple_machine_frame',
+			M: 'industrialforegoing:machine_frame_simple',
 			P: 'industrialforegoing:plastic',
 			S: 'create:sturdy_sheet'
 		})
