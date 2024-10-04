@@ -3,28 +3,62 @@
 		name: "Member"
 		power: 1
 		condition: "always_active"
-		ftbchunks.max_claimed: 100
-		ftbchunks.max_force_loaded: 1
+		ftbchunks.max_claimed: 200
+		ftbchunks.max_force_loaded: 6
 		ftbessentials.home.max: 2
 	}
-	vip: {
-		name: "VIP"
-		power: 50
-		ftbranks.name_format: "&bVIP {name}"
+
+	donnateur1: {
+		name: "donnateur1"
+		power: 10
+		ftbranks.name_format: "&2DI &r{name}"
+		ftbessentials.home.max: 5
+		ftbchunks.max_force_loaded: 9
 	}
+	donnateur2: {
+		name: "donnateur2"
+		power: 11
+		ftbranks.name_format: "&a&lDII&r {name}"
+		ftbessentials.home.max: 7
+		ftbchunks.max_force_loaded: 11
+	}
+	donnateur3: {
+		name: "donnateur3"
+		power: 12
+		ftbranks.name_format: "&a&l&nDI&2&l&nII&r {name}"
+		ftbessentials.home.max: 7
+		ftbchunks.max_force_loaded: 16
+	}
+
+	streamer: {
+		name: "Streamer"
+		power: 20
+		ftbranks.name_format: "&5&lStre&damer &r&l{name}"
+		ftbessentials.home.max: 5
+		ftbchunks.max_force_loaded: 9
+	}
+
+	streamer: {
+		name: "Streameuse"
+		power: 21
+		ftbranks.name_format: "&5&lStre&dameuse &r&l{name}"
+		ftbessentials.home.max: 5
+		ftbchunks.max_force_loaded: 9
+	}
+
 	admin: {
 		name: "Admin"
 		power: 1000
 		condition: "op"
-		ftbchunks.max_claimed: 1000
-		ftbchunks.max_force_loaded: 1
-		ftbranks.name_format: "&1&4Admin &r{name}"
-		ftbessentials.home.max: 10
+		ftbchunks.max_claimed: 20000
+		ftbchunks.max_force_loaded: 100
+		ftbranks.name_format: "&4&lAdmin &r&l{name}"
+		ftbessentials.home.max: 100
 		ftbessentials.home.cooldown: 0
 	}
 	addclaim: {
 		name: "addClaim"
 		power: 2
-		ftbchunks.max_claimed: 300
+		ftbchunks.max_claimed: 800
 	}
 }
