@@ -18,11 +18,12 @@ ServerEvents.recipes(event =>
 			'IRI',
 			'LAL'
 		], {
-			L: 'minecraft:logs',
-			A: 'create:andesite_ingot',
+			L: 'minecraft:oak_log',
+			A: 'create:andesite_alloy',
 			I: 'minecraft:iron_ingot',
 			R: 'minecraft:redstone_block'
 		});
+		
 
 		event.remove({ output: 'mifa:netherite_gear' })
 		event.shaped('mifa:netherite_gear', [
@@ -78,6 +79,44 @@ ServerEvents.recipes(event =>
 				"item": "industrialforegoing:machine_frame_advanced",
 			},
 			"processingTime": 400
+
+		})
+
+		event.remove({ output: 'industrialforegoing:machine_frame_supreme' })
+		event.custom({
+			type: "industrialforegoing:dissolution_chamber",
+			"input": [
+				{
+				  "item": "industrialforegoing:plastic"
+				},
+				{
+				  "item": "industrialforegoing:machine_frame_advanced"
+				},
+				{
+				  "item": "industrialforegoing:plastic"
+				},
+				{
+				  "item": "minecraft:netherite_ingot"
+				},
+				{
+				  "item": "minecraft:netherite_ingot"
+				},
+				{
+				  "item": "minecraft:diamond"
+				},
+				{
+				  "item": "mekanism:elite_control_circuit"
+				},
+				{
+				  "item": "minecraft:diamond"
+				}
+			  ],
+			"inputFluid": "{Amount:500,FluidName:\"industrialforegoing:ether_gas\"}",
+			"output": {
+				"count": 1,
+				"item": "industrialforegoing:machine_frame_supreme",
+			},
+			"processingTime": 500
 
 		})
 
