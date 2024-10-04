@@ -7,7 +7,6 @@
 		ftbchunks.max_force_loaded: 6
 		ftbessentials.home.max: 2
 	}
-
 	donnateur1: {
 		name: "donnateur1"
 		power: 10
@@ -29,15 +28,6 @@
 		ftbessentials.home.max: 7
 		ftbchunks.max_force_loaded: 16
 	}
-
-	streamer: {
-		name: "Streamer"
-		power: 20
-		ftbranks.name_format: "&5&lStre&damer &r&l{name}"
-		ftbessentials.home.max: 5
-		ftbchunks.max_force_loaded: 9
-	}
-
 	streamer: {
 		name: "Streameuse"
 		power: 21
@@ -45,7 +35,6 @@
 		ftbessentials.home.max: 5
 		ftbchunks.max_force_loaded: 9
 	}
-
 	admin: {
 		name: "Admin"
 		power: 1000
