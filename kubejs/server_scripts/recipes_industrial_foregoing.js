@@ -1,6 +1,6 @@
 ServerEvents.recipes(event =>
 	{
-		event.remove({ output: 'industrialforegoing:pity_generator' })
+		event.remove({ output: 'industrialforegoing:pitiful_generator' })
 		event.remove({ output: 'industrialforegoing:mycelial_reactor' })
 		event.remove({ output: 'industrialforegoing:gold_gear' })
 		event.shaped('industrialforegoing:gold_gear', [
