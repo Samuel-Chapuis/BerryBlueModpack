@@ -9,7 +9,18 @@ ServerEvents.recipes(event =>
 		event.remove({ output: 'computercraft:computer_normal'})
 		event.remove({ output: 'computercraft:pocket_computer_normal'})
 		event.remove({ output: 'computercraft:pocket_computer_advanced'})
+		event.remove({ output: 'computercraft:computer_advanced'})
+		event.remove({ output: 'computercraft:computer_nromal'})
+		event.remove({ output: 'yuushya:steel_structure'})
 	
+		event.shaped(Item.of('yuushya:steel_structure',8), [
+			'SSS',
+			'S S',
+			'SSS'
+		],{
+			S: 'minecraft:iron_ingot'	
+		})
+
 		// Ajouter une nouvelle recette pour small_shelf
 		event.shaped('luphieclutteredmod:small_shelf', [
 			'PPP',

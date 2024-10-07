@@ -20,6 +20,8 @@ ServerEvents.recipes(event =>
 		event.remove({ output: 'mekanismgenerators:portable_teleporter' })
 		event.remove({ output: 'mekanism:teleporter' })
 		event.remove({ output: 'mekanism:teleporter_frame' })
+		event.remove({ output: 'mekanism:restrictive_transporter'})
+		event.remove({ output: 'mekanism:diversion_transporter'})
 
 		event.remove({ output: 'mekanism:advanced_control_circuit' })
 		event.shaped('mekanism:advanced_control_circuit', [
