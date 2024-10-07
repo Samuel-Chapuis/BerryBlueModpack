@@ -17,6 +17,9 @@ ServerEvents.recipes(event =>
 		event.remove({ output: 'mekanismgenerators:heat_generator' })
 		event.remove({ output: 'mekanismgenerators:bio_generator' })
 		event.remove({ output: 'mekanismgenerators:gas_burning_generator' })
+		event.remove({ output: 'mekanismgenerators:portable_teleporter' })
+		event.remove({ output: 'mekanism:teleporter' })
+		event.remove({ output: 'mekanism:teleporter_frame' })
 
 		event.remove({ output: 'mekanism:advanced_control_circuit' })
 		event.shaped('mekanism:advanced_control_circuit', [
@@ -126,9 +129,6 @@ ServerEvents.recipes(event =>
 			S: 'mekanism:steel_casing',
 			C: 'create:crushing_wheel'
 		})
-
-		event.remove({ output: 'mekanism:teleporter' })
-		event.remove({ output: 'mekanism:teleporter_frame' })
 
 		event.remove({ output: 'mekanism:electric_pump' })
 		event.shaped('mekanism:electric_pump', [
