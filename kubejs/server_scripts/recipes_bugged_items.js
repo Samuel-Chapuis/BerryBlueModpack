@@ -45,4 +45,6 @@ ServerEvents.recipes(event =>
 		],{
 			S: 'minecraft:cobbled_deepslate_slab'	
 		})
+
+		event.shapless
 	})

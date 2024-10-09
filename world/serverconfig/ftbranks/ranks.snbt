@@ -12,21 +12,21 @@
 		power: 10
 		ftbranks.name_format: "&2DI &r{name}"
 		ftbessentials.home.max: 5
-		ftbchunks.max_force_loaded: 9
+		ftbchunks.max_force_loaded: 5
 	}
 	donnateur2: {
 		name: "donnateur2"
 		power: 11
 		ftbranks.name_format: "&a&lDII&r {name}"
-		ftbessentials.home.max: 7
-		ftbchunks.max_force_loaded: 11
+		ftbessentials.home.max: 10
+		ftbchunks.max_force_loaded: 10
 	}
 	donnateur3: {
 		name: "donnateur3"
 		power: 12
 		ftbranks.name_format: "&a&l&nDI&2&l&nII&r {name}"
-		ftbessentials.home.max: 7
-		ftbchunks.max_force_loaded: 16
+		ftbessentials.home.max: 15
+		ftbchunks.max_force_loaded: 20
 	}
 	streamer: {
 		name: "Streameuse"

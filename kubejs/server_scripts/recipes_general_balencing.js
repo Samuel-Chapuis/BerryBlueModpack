@@ -12,4 +12,7 @@ ServerEvents.recipes(event =>
 			E: 'mekanism:elite_control_circuit'
 		});
 
+		event.shapeless(Item.of('ad_astra:steel_block'), ['mekanism:steel_block']);
+		event.shapeless(Item.of('mekanism:steel_block'), ['ad_astra:steel_block']);
+
 	})
