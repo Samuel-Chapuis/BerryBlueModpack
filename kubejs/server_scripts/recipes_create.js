@@ -12,4 +12,29 @@ ServerEvents.recipes(event =>
 			Z: 'create:zinc_block',
 			S: 'minecraft:slime_ball'
 		});
+
+
+		event.custom({
+			"type": "create:mixing",
+			"ingredients": [
+				{
+				"item": "create:experience_nugget"
+				},
+				{
+				"fluid": "minecraft:water",
+				"amount": 100
+				}
+			],
+			"results": [
+				{
+				"fluid": "industrialforegoing:essence",
+				"amount": 10
+				}
+			],
+			"heatRequirement": "heated"
+		});
+
+
+
 	})
+
