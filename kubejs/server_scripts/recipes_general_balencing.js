@@ -12,7 +12,7 @@ ServerEvents.recipes(event =>
 			E: 'mekanism:elite_control_circuit'
 		});
 
-		event.shapeless(Item.of('ad_astra:steel_block'), ['mekanism:block_steel']);
-		event.shapeless(Item.of('mekanism:block_steel'), ['ad_astra:steel_block']);
+		event.smelting('ad_astra:steel_block', 'mekanism:block_steel').xp(0);
+		event.smelting('mekanism:block_steel', 'ad_astra:steel_block').xp(0);
 
 	})
